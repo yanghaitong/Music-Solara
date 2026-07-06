@@ -765,7 +765,7 @@ const API = {
     // baseUrl: "/proxy",
     
     // 修改api接口
-    baseUrl: "https://music-api.gdstudio.xyz/api.php",
+    baseUrl: "https://music.gdstudio.org/api.php",
 
     generateSignature: () => {
         return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
